@@ -20,12 +20,11 @@ Now, I note my experience as I learn new things, do projects, or even make mista
 
 ---
 
-<p align="center">
-  <a href="https://github.com/philectron"><i class="fa fa-github" aria-hidden="true"></i></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/luucamphi"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://stackoverflow.com/users/4048938/phil3c7r0n"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.youtube.com/channel/UCgaA7eSMwjmcKkJUDVGykmg"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-</p>
+Visit me on:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/philectron"><i class="fa fa-github" aria-hidden="true"></i></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/luucamphi"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://stackoverflow.com/users/4048938/phil3c7r0n"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/channel/UCgaA7eSMwjmcKkJUDVGykmg"><i class="fa fa-youtube" aria-hidden="true"></i></a>
