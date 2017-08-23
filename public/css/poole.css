@@ -165,9 +165,6 @@ pre {
   font-size: .8rem;
   line-height: 1.5;
   white-space: pre;
-  word-break: nowrap;
-  word-wrap: nowrap;
-  overflow: auto;
   background-color: #ffffff;
 }
 pre code {
@@ -187,10 +184,13 @@ pre.lineno {
   user-select: none;
 }
 td.code {
+  overflow-x: auto;
   padding: 0 0 0 0.5rem;
   margin: 0;
 }
 td.gutter.gl {
+  width: 3em;
+  text-align: right;
   padding: 0;
   margin: 0;
 }
@@ -274,6 +274,7 @@ video {
 
 /* Tables */
 table {
+  table-layout: fixed;
   margin-bottom: 1rem;
   width: 100%;
   border: 1px solid #e5e5e5;
