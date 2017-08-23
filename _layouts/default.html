@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+  {% include google-analytics.html %}
+
+  <body>
+    <div class="masthead">
+      <div class="container">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          {% for page in site.pages_list %}
+            &nbsp;&nbsp;&nbsp;<small><a href="{{ page[1] }}">{{ page[0] }}</a></small>
+          {% endfor %}
+        </h3>
+      </div>
+    </div>
+
+    <div class="container content">
+      {{ content }}
+      {% include comments.html %}
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <p>
+          &copy;&nbsp;{{ site.time | date: '%Y' }}&nbsp;{{ site.author.name }}. Powered by Jekyll &amp; Lanyon.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

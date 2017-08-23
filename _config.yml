@@ -1,0 +1,77 @@
+repository:       'philectron/philectron.github.io'
+
+# Setup
+title:            'Notes of PhiL'
+url:              'https://philectron.github.io'
+giturl:           'https://philectron.github.io'
+baseurl:          null
+paginate:         7
+rss:              'atom.xml'
+
+# List of pages to include in the masthead of the website
+pages_list:
+  About:          '/about'
+  Categories:     '/categories'
+  Tags:           '/tags'
+  Archive:        '/archive'
+  Feed:           '/atom.xml'
+  GitHub Repo:    'https://github.com/philectron/philectron.github.io'
+
+# YAML front matter defaults
+defaults:
+  - scope:
+      path:       ''
+      type:       posts
+    values:
+      layout:     post
+      related:    true
+      comments:   true
+  - scope:
+      path:       ''
+      type:       pages
+    values:
+      layout:     page
+      related:    false
+      comments:   false
+
+# Comments
+disqus:           'philectron'
+
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+lsi:              false
+incremental:      false
+
+kramdown:
+  fenced_code_blocks: true
+  input:                    GFM
+  syntax_highlighter:       rouge
+  syntax_highlighter_opts:
+    css_class:              'highlight'
+    span:
+      line_numbers:         false
+    block:
+      line_numbers:         true
+      start_line:           1
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - pygments.rb
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# Outputting
+permalink:        pretty
+paginate:         5                      # amount of posts to show
+paginate_path:    '/page:num'
+timezone:         'America/Los_Angeles'  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
