@@ -13,7 +13,6 @@
  * https://github.com/poole/lanyon.
  */
 
-
 /*
  * Contents
  *
@@ -25,7 +24,6 @@
  * Categories and Tags
  */
 
-
 /*
  * Global resets
  *
@@ -33,8 +31,9 @@
  */
 
 /* Prevent scroll on narrow devices */
-html,
-body {
+
+body,
+html {
   overflow-x: hidden;
 }
 
@@ -42,10 +41,15 @@ html {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  color: #313131;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family   : "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight   : 400;
+  color         : #313131;
   letter-spacing: -.025rem;
 }
 
@@ -69,7 +73,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
 /*
  * Masthead
  *
@@ -77,30 +80,33 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .masthead {
-  padding-top:    1rem;
+  padding-top   : 1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
-  border-bottom: 1px solid #f5f5f5;
+  margin-bottom : 3rem;
+  border-bottom : 1px solid #f5f5f5;
 }
+
 .masthead-title {
-  margin-top: 0;
+  margin-top   : 0;
   margin-bottom: 0;
-  color: #505050;
+  color        : #505050;
 }
+
 .masthead-title a {
   color: #505050;
 }
+
 .masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
+  font-size     : 75%;
+  font-weight   : 400;
+  color         : #c0c0c0;
   letter-spacing: 0;
 }
-
 @media (max-width: 48em) {
   .masthead-title {
     text-align: center;
   }
+
   .masthead-title small {
     display: none;
   }
@@ -119,49 +125,57 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Blog post or page title */
+
 .page-title,
 .post-title,
 .post-title a {
   color: #303030;
 }
+
 .page-title,
 .post-title {
   margin-top: 0;
 }
 
 /* Meta data line below post title */
+
 .post-metadata {
-  display: block;
-  margin-top: -.5rem;
+  display      : block;
+  margin-top   : -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color        : #9a9a9a;
 }
 
 /* Related posts */
+
 .related {
-  padding-top: 2rem;
+  padding-top   : 2rem;
   padding-bottom: 2rem;
-  border-top: 1px solid #eee;
+  border-top    : 1px solid #eee;
 }
+
 .related-posts {
   padding-left: 0;
-  list-style: none;
+  list-style  : none;
 }
+
 .related-posts h3 {
   margin-top: 0;
 }
+
 .related-posts li small {
   font-size: 75%;
-  color: #999;
+  color    : #999;
 }
+
 .related-posts li a:hover {
-  color: #268bd2;
+  color          : #268bd2;
   text-decoration: none;
 }
+
 .related-posts li a:hover small {
   color: inherit;
 }
-
 
 /*
  * Pagination
@@ -171,49 +185,54 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .pagination {
-  overflow: hidden; /* clearfix */
-  margin-left: -1rem;
+  overflow    : hidden;
+  /* clearfix */
+  margin-left : -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
-  text-align: center;
+  font-family : "PT Sans", Helvetica, Arial, sans-serif;
+  color       : #ccc;
+  text-align  : center;
 }
 
 /* Pagination items can be `span`s or `a`s */
+
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid #eee;
+  border : 1px solid #eee;
 }
+
 .pagination-item:first-child {
   margin-bottom: -1px;
 }
 
 /* Only provide a hover state for linked pagination items */
+
 a.pagination-item:hover {
   background-color: #f5f5f5;
 }
-
 @media (min-width: 30em) {
   .pagination {
     margin: 3rem 0;
   }
+
   .pagination-item {
     float: left;
     width: 50%;
   }
+
   .pagination-item:first-child {
-    margin-bottom: 0;
-    border-top-left-radius:    4px;
+    margin-bottom            : 0;
+    border-top-left-radius   : 4px;
     border-bottom-left-radius: 4px;
   }
+
   .pagination-item:last-child {
-    margin-left: -1px;
-    border-top-right-radius:    4px;
+    margin-left               : -1px;
+    border-top-right-radius   : 4px;
     border-bottom-right-radius: 4px;
   }
 }
-
 
 /*
  * Categories and Tags
@@ -221,10 +240,11 @@ a.pagination-item:hover {
  * Provide a concise and pretty apperance for tag and category names.
  */
 
-.category-name, .tag-name {
-    display: inline-block;
-    margin: .125em .25em;
-    padding: .25em .5em;
-    background-color: #f5f5f5;
-    border-radius: 7px;
+.category-name,
+.tag-name {
+  display         : inline-block;
+  margin          : .125em .25em;
+  padding         : .25em .5em;
+  background-color: #f5f5f5;
+  border-radius   : 7px;
 }
