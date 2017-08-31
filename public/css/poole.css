@@ -12,6 +12,7 @@
  * Designed, built, and released under MIT license by @mdo. Learn more at
  * https://github.com/poole/poole.
  */
+
 /*
  * Contents
  *
@@ -174,7 +175,7 @@ pre {
 code {
   padding         : .25em .5em;
   font-size       : 85%;
-  color           : #000000;
+  color           : #000;
   background-color: #f5f5f5;
   border-radius   : 3px;
 }
@@ -187,7 +188,7 @@ pre {
   font-size       : .8rem;
   line-height     : 1.5;
   white-space     : pre;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 pre code {
@@ -221,6 +222,15 @@ td.gutter.gl {
   margin    : 0;
 }
 
+.highlight table {
+  table-layout: fixed;
+}
+
+.highlight tbody tr:nth-child(odd) td,
+.highlight tbody tr:nth-child(odd) th {
+  background-color: #f5f5f5;
+}
+
 /* Pygments via Jekyll */
 
 .highlight {
@@ -231,7 +241,6 @@ td.gutter.gl {
 .highlight pre {
   margin-bottom: 0;
 }
-
 /* Gist via GitHub Pages */
 
 .gist .gist-file {
@@ -315,7 +324,7 @@ video {
 /* Tables */
 
 table {
-  table-layout   : fixed;
+  table-layout   : auto;
   margin-bottom  : 1rem;
   width          : 100%;
   border         : 1px solid #e5e5e5;
@@ -330,7 +339,7 @@ th {
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f5f5f5;
+  background-color: #f9f9f9;
 }
 
 /*
@@ -475,7 +484,6 @@ tbody tr:nth-child(odd) th {
 
 .pagination {
   overflow    : hidden;
-  /* clearfix */
   margin-left : -1rem;
   margin-right: -1rem;
   font-family : "PT Sans", Helvetica, Arial, sans-serif;
