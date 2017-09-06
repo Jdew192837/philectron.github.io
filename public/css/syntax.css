@@ -64,7 +64,9 @@
 
 /* Adjusted to give override background and text colour */
 
-.highlight pre, pre, .highlight .hll {
+.highlight .hll,
+.highlight pre,
+pre {
   background-color: #f5f5f5;
-  color: #000;
+  color           : #000;
 }
