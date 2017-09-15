@@ -56,7 +56,7 @@ Basically, we only need to write a program that read values from the potentiomet
 
 See below for my code on the Arduino IDE, or [view it on my GitHub](https://github.com/philectron/arduino/blob/master/tweak_the_arduino_logo/tweak_the_arduino_logo.ino).
 
-```c
+<pre class="prettyprint linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 14: Tweak the Arduino Logo
  *
@@ -88,7 +88,7 @@ void loop() {
     Serial.write(analogRead(POT_PIN) / 4);
     delay(1); // stabilize the pot
 }
-```
+</pre>
 
 This time, I used `Serial.write()`, not `Serial.println()`. `Serial.println()` is to write the value after being formatted by the Arduino. The `Serial.write()` function returns the **raw** value from what the Arduino **actually reads**. We will want it to be raw so that our code in Processing can "cook" it :)
 
@@ -98,7 +98,7 @@ That's what I uploaded to my Arduino. Next step is to write a program on the com
 
 See below for my code on the Processing IDE, or [view it on my GitHub](https://github.com/philectron/arduino/blob/master/tweak_the_arduino_logo/tweak_the_arduino_logo.pde). Note that the `BAUD_RATE` in both programs **MUST BE THE SAME** (in this case, `19200`).
 
-```java
+<pre class="prettyprint linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 14: Tweak the Arduino Logo
  *
@@ -159,7 +159,47 @@ void draw() {
         image(logo, 0, 0);
     }
 }
-```
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+</pre>
 
 Once the program runs, it may be reacting slowly to the changing of the potentiometer value. Be patient.
 
