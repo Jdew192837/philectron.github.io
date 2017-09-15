@@ -72,7 +72,7 @@ They are also available on [my GitHub](https://github.com/philectron/pcb/tree/ma
 
 Below is [my code](https://github.com/philectron/arduino/blob/master/keyboard_instrument/keyboard_instrument.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 07: Keyboard Instrument
  *
@@ -121,7 +121,8 @@ void loop() {
         noTone(PIEZO_PIN);         // no switch ~ no sound
     }
 }
-```
+
+</pre>
 
 ## **USING:**
 

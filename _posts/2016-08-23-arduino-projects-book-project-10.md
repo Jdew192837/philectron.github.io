@@ -85,7 +85,7 @@ As always, they are available on [my GitHub](https://github.com/philectron/pcb/t
 
 See below for my code, or [view it on my GitHub](https://github.com/philectron/arduino/blob/master/zoetrope/zoetrope.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 10: Zoetrope
  *
@@ -165,7 +165,8 @@ void loop() {
     prev_state_switch_val     = state_switch_val;
     prev_direction_switch_val = direction_switch_val;
 }
-```
+
+</pre>
 
 ## **USING:**
 

@@ -75,7 +75,7 @@ And this is my real board circuit:
 
 See below for my code, or [view it on my GitHub](https://github.com/philectron/arduino/blob/master/digital_hourglass/digital_hourglass.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 08: Digital Hourglass
  *
@@ -164,7 +164,8 @@ void loop() {
     // store the current switch state
     prev_switch_state = switch_state;
 }
-```
+
+</pre>
 
 ## **USING:**
 

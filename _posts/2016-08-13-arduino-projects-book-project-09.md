@@ -79,7 +79,8 @@ They are available on [my GitHub](https://github.com/philectron/pcb/tree/master/
 ## **CODE:**
 
 See below for my code, or [view it on my GitHub](https://github.com/philectron/arduino/blob/master/motorized_pinwheel/motorized_pinwheel.ino).
-```c
+
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 09: Motorized Pinwheel
  *
@@ -112,7 +113,8 @@ void loop() {
         digitalWrite(MOTOR_PIN, LOW);
     }
 }
-```
+
+</pre>
 
 ## **USING:**
 

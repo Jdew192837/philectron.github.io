@@ -84,7 +84,7 @@ There are new functions that will be used in this project, `millis()` and `tone(
 
 See below for my code, or view it on [my GitHub](https://github.com/philectron/arduino/blob/master/light_theremin/light_theremin.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 06: Light Theremin
  *
@@ -138,7 +138,8 @@ void loop() {
     // wait 10ms for the sensor to stabilize
     delay(10);
 }
-```
+
+</pre>
 
 ## **USING:**
 

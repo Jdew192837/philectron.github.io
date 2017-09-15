@@ -77,7 +77,7 @@ The author, Paul Badger, makes things easier for us in the `CapcitiveSensor.h` l
 
 See below for my code, or [view it on my GitHub](https://github.com/philectron/arduino/blob/master/touchy_feely_lamp/touchy_feely_lamp.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 13: Touchy-feely Lamp
  *
@@ -128,7 +128,8 @@ void loop() {
     // delay helps stabilize the sensor
     delay(10);
 }
-```
+
+</pre>
 
 ## **USING:**
 

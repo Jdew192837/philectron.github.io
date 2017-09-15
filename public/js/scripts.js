@@ -5,14 +5,16 @@ $(function() {
 
 // create a copy code button
 function copyCode() {
-  $('.highlight').hover(
+  $('pre').hover(
     // display copy code button when hover in
     function() {
       // append div
-      $(this).prepend('<div class="copy-code-container"><div class="copy-code-button">Copy Code</div></div>');
+      $(this).prepend(
+        '<div class="copy-code-container"><div class="copy-code-button">Copy Code</div></div>'
+      );
       // on-click = copy the entire code snippet
       $('.copy-code-button').click(function() {
-        copyToClipboard();
+        copyToClipboard('.linenums');
         $(this).html('Copied!');
       });
     },
@@ -25,5 +27,9 @@ function copyCode() {
 
 // copy text to clipboard
 function copyToClipboard(element) {
-
+  var $temp = $('<input>');
+  $('body').append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand('copy');
+  $temp.remove();
 }

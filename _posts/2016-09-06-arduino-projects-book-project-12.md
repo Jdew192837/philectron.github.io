@@ -71,7 +71,7 @@ We first encounter function in this project. Instead of writing our code repetit
 
 See below for my code, or [view on my GitHub](https://github.com/philectron/arduino/blob/master/knock_lock/knock_lock.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 12: Knock Lock
  *
@@ -205,7 +205,8 @@ boolean CheckForKnock(byte a_knock_val) {
         return false;
     }
 }
-```
+
+</pre>
 
 ## **USING:**
 

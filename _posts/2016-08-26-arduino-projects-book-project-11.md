@@ -86,15 +86,15 @@ The schematic and the breadboard layout are available on [my GitHub](https://git
 
 In this project, we will use a new library, `LiquidCrystal.h`. This library provides a full control of the LCD with simple one-line statements. Without it, we would have to code in the registers of the LCD, and that would be a nightmare for beginners like me. So, the first thing we have to do is to **include the library**,
 
-```cpp
+<pre class="prettyprint c-html linenums:1">
 #include <LiquidCrystal.h>
-```
+</pre>
 
 Right after including, we must use a **constructor** to tell the compiler which pins of the LCD connect to which pins of the Arduino. There are many choices for the constructor, but I'll use the following syntax:
 
-```c
-LiquidCrystal lcd(rs, enable, d4, d5, d6, d7)
-```
+<pre class="prettyprint c-html linenums:1">
+LiquidCrystal lcd(rs, enable, d4, d5, d6, d7);
+</pre>
 
 with all parameters indicating an Arduino pin connected to the corresponding pin on the LCD sub-circuit. Because we only need **RS, E, D4, D5, D6, and D7**, there is no reason we need to connect D0-D3. Other pins are necessary for powering and backlighting the LCD, so we need to connect them properly like the schematic.
 
@@ -102,7 +102,7 @@ Additionally, there are more simple one-line statements to control the LCD, such
 
 One new statement I will introduce in this post is `switch()`. It's a conditional statement similar to the `if()` statement.
 
-```c
+<pre class="prettyprint c-html linenums:1">
 switch (variable) {
     case value_1:
         // statements;
@@ -118,13 +118,13 @@ switch (variable) {
         // statements;
         break;
 }
-```
+</pre>
 
 `switch()` is similar to `if()`, but it makes the code look when we need to branch the code by different conditions of the same variable. **It is important to put a** `break` **statement at the end of each case** in order to break of the `switch()` statement when `variable` falls into one of the values of the cases. If there is no `break` statement, the code will still fall into one of the cases, but it will continue executing the code of the cases after that. In most situations, it's not a good idea.
 
 See below for my code, or [view it on my GitHub](https://github.com/philectron/arduino/blob/master/crystal_ball/crystal_ball.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 11: Crystal Ball
  *
@@ -212,7 +212,8 @@ void loop() {
     }
     prev_switch_val = switch_val;
 }
-```
+
+</pre>
 
 ## **USING:**
 

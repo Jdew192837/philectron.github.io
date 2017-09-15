@@ -61,7 +61,7 @@ Both are available on my [GitHub](https://github.com/philectron/pcb/tree/master/
 
 Here is my full code. It is also available on my [GitHub](https://github.com/philectron/arduino/blob/master/color_mixing_lamp/color_mixing_lamp.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 04: Color Mixing Lamp
  *
@@ -139,7 +139,8 @@ void loop() {
     analogWrite(BLUE_LED_PIN,  blue_led_value);  // indicate blue LED
     analogWrite(GREEN_LED_PIN, green_led_value); // indicate green LED
 }
-```
+
+</pre>
 
 ## **USING:**
 

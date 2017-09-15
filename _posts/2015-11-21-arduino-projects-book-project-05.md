@@ -62,18 +62,18 @@ A value of `from_low` will be mapped to `to_low`. A value of `from_high` will be
 
 Next, we need to include the Servo library so that we can work on our servo motor easily. After we `#include <Servo.h>` and declare `Servo MyServo`, we provide the servo motor with `attach()` and `write()` methods.
 
-```c
+<pre class="prettyprint c-html linenums:1">
 #include <Servo.h>
 
 Servo MyServo;
 
 MyServo.attach(SERVO_PIN);  // the Arduino pin that controls the servo
 MyServo.write(90);          // write the angle
-```
+</pre>
 
 Finally, see below for my project 05 code, or [see it on GitHub](https://github.com/philectron/arduino/blob/master/mood_cue/mood_cue.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 05: Mood Cue
  *
@@ -123,7 +123,8 @@ void loop() {
     // delay to stabilize
     delay(15);
 }
-```
+
+</pre>
 
 ## **USING:**
 

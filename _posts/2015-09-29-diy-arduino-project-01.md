@@ -67,7 +67,7 @@ Inside the `for()` loop, initializes the iterative variable `i` to 0\. Whenever 
 
 See below for my code, and see more on [GitHub](https://github.com/philectron/arduino/tree/master/letter_p/letter_p.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: DIY Arduino - Project 01: Letter P
  *
@@ -128,7 +128,8 @@ void loop() {
     digitalWrite(LED_2, LOW);
     digitalWrite(LED_1, HIGH);
 }
-```
+
+</pre>
 
 ## **USING:**
 

@@ -74,7 +74,7 @@ For this TMP36 temperature sensor, every 10mV equals 1 degree Celsius.
 
 See below for my full code for this project, or view it on [GitHub](https://github.com/philectron/arduino/tree/master/love_o_meter/love_o_meter.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: Arduino Projects Book - Project 03: Love-O-Meter
  *
@@ -152,7 +152,8 @@ void loop() {
         digitalWrite(LED_3, HIGH);
     }
 }
-```
+
+</pre>
 
 ## **USING:**
 

@@ -102,7 +102,7 @@ These are available on [my GitHub](https://github.com/philectron/pcb/tree/master
 
 See below for my robot code, or view it on [GitHub](https://github.com/philectron/robots/blob/master/fortuna/fortuna.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: Robot Collection - Project 01: Fortuna
  *
@@ -233,7 +233,7 @@ void Beep(int pin, int freq, long ms) {
     }
 }
 
-```
+</pre>
 
 ## **DEMONSTRATION:**
 

@@ -53,7 +53,7 @@ There is nothing new here. I use the knowledge that I have learned from previous
 
 See below for my code, or view it on [my GitHub](https://github.com/philectron/arduino/blob/master/dark_room/dark_room.ino).
 
-```c
+<pre class="prettyprint c-html linenums:1">
 /**
  * Project Name: DIY Arduino - Project 02: Dark Room
  *
@@ -88,7 +88,8 @@ void loop() {
         digitalWrite(LED_PIN, LOW);
     }
 }
-```
+
+</pre>
 
 ## **USING:**
 
