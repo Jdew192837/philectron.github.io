@@ -12,6 +12,8 @@ function copyCode() {
       $(this).prepend(
         '<div class="copy-code-container"><div class="copy-code-button">Copy Code</div></div>'
       );
+      // contrast text color
+      $('.copy-code-button').css('color', $('.pln').css('color'));
       // on-click = copy the entire code snippet
       $('.copy-code-button').click(function() {
         copyToClipboard('.linenums');
