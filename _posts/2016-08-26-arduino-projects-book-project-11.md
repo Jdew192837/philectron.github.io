@@ -86,13 +86,13 @@ The schematic and the breadboard layout are available on [my GitHub](https://git
 
 In this project, we will use a new library, `LiquidCrystal.h`. This library provides a full control of the LCD with simple one-line statements. Without it, we would have to code in the registers of the LCD, and that would be a nightmare for beginners like me. So, the first thing we have to do is to **include the library**,
 
-<pre class="prettyprint c-html">
+<pre class="prettyprint c-html linenums:1">
 #include <LiquidCrystal.h>
 </pre>
 
 Right after including, we must use a **constructor** to tell the compiler which pins of the LCD connect to which pins of the Arduino. There are many choices for the constructor, but I'll use the following syntax:
 
-<pre class="prettyprint c-html">
+<pre class="prettyprint c-html linenums:1">
 LiquidCrystal lcd(rs, enable, d4, d5, d6, d7);
 </pre>
 
@@ -102,7 +102,7 @@ Additionally, there are more simple one-line statements to control the LCD, such
 
 One new statement I will introduce in this post is `switch()`. It's a conditional statement similar to the `if()` statement.
 
-<pre class="prettyprint c-html">
+<pre class="prettyprint c-html linenums:1">
 switch (variable) {
     case value_1:
         // statements;
