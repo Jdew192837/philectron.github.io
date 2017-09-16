@@ -205,7 +205,6 @@ boolean CheckForKnock(byte a_knock_val) {
         return false;
     }
 }
-
 </pre>
 
 ## **USING:**

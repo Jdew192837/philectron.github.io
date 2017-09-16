@@ -128,7 +128,6 @@ void loop() {
     // delay helps stabilize the sensor
     delay(10);
 }
-
 </pre>
 
 ## **USING:**

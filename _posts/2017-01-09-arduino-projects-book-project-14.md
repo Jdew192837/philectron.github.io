@@ -88,7 +88,6 @@ void loop() {
     Serial.write(analogRead(POT_PIN) / 4);
     delay(1); // stabilize the pot
 }
-
 </pre>
 
 This time, I used `Serial.write()`, not `Serial.println()`. `Serial.println()` is to write the value after being formatted by the Arduino. The `Serial.write()` function returns the **raw** value from what the Arduino **actually reads**. We will want it to be raw so that our code in Processing can "cook" it :)
@@ -160,7 +159,6 @@ void draw() {
         image(logo, 0, 0);
     }
 }
-
 </pre>
 
 Once the program runs, it may be reacting slowly to the changing of the potentiometer value. Be patient.

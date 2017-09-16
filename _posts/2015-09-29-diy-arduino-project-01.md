@@ -128,7 +128,6 @@ void loop() {
     digitalWrite(LED_2, LOW);
     digitalWrite(LED_1, HIGH);
 }
-
 </pre>
 
 ## **USING:**

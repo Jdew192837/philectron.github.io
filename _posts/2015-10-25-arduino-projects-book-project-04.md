@@ -139,7 +139,6 @@ void loop() {
     analogWrite(BLUE_LED_PIN,  blue_led_value);  // indicate blue LED
     analogWrite(GREEN_LED_PIN, green_led_value); // indicate green LED
 }
-
 </pre>
 
 ## **USING:**

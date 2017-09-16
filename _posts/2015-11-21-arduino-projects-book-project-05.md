@@ -62,7 +62,7 @@ A value of `from_low` will be mapped to `to_low`. A value of `from_high` will be
 
 Next, we need to include the Servo library so that we can work on our servo motor easily. After we `#include <Servo.h>` and declare `Servo MyServo`, we provide the servo motor with `attach()` and `write()` methods.
 
-<pre class="prettyprint c-html linenums:1">
+<pre class="prettyprint c-html">
 #include <Servo.h>
 
 Servo MyServo;
@@ -123,7 +123,6 @@ void loop() {
     // delay to stabilize
     delay(15);
 }
-
 </pre>
 
 ## **USING:**

@@ -232,7 +232,6 @@ void Beep(int pin, int freq, long ms) {
         delayMicroseconds(semi_period); // for the other half of the period
     }
 }
-
 </pre>
 
 ## **DEMONSTRATION:**

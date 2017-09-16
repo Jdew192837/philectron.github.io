@@ -165,7 +165,6 @@ void loop() {
     prev_state_switch_val     = state_switch_val;
     prev_direction_switch_val = direction_switch_val;
 }
-
 </pre>
 
 ## **USING:**

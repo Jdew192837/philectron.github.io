@@ -88,7 +88,6 @@ void loop() {
         digitalWrite(LED_PIN, LOW);
     }
 }
-
 </pre>
 
 ## **USING:**

@@ -164,7 +164,6 @@ void loop() {
     // store the current switch state
     prev_switch_state = switch_state;
 }
-
 </pre>
 
 ## **USING:**

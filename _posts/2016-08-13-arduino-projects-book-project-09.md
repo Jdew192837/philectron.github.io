@@ -113,7 +113,6 @@ void loop() {
         digitalWrite(MOTOR_PIN, LOW);
     }
 }
-
 </pre>
 
 ## **USING:**

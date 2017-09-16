@@ -46,7 +46,7 @@ However, we've already had `DELAY_TIME` (we've decided how long the program will
 
 Finally, here is my implementation of the `Delay()` function:
 
-<pre class="prettyprint c-html linenums:1">
+<pre class="prettyprint c-html">
 /**
  * Delays in units of milliseconds
  *

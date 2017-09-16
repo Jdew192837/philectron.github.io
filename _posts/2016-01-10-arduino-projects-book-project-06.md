@@ -138,7 +138,6 @@ void loop() {
     // wait 10ms for the sensor to stabilize
     delay(10);
 }
-
 </pre>
 
 ## **USING:**

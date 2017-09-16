@@ -152,7 +152,6 @@ void loop() {
         digitalWrite(LED_3, HIGH);
     }
 }
-
 </pre>
 
 ## **USING:**

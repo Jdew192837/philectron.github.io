@@ -121,7 +121,6 @@ void loop() {
         noTone(PIEZO_PIN);         // no switch ~ no sound
     }
 }
-
 </pre>
 
 ## **USING:**
